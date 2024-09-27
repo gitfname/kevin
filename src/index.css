@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* iran yekan */
+@font-face {
+  font-family: iran-yekan--regular;
+  src: url(/fonts/iranyekanwebregular.woff);
+}
+
+
+/* dana farsi number */
+
+@font-face {
+  font-family: dana-fa-number--regular;
+  src: url(/fonts/dana-fa-number/DanaFaNum-Regular.woff);
+}
+
+@font-face {
+  font-family: dana-fa-number--bold;
+  src: url(/fonts/dana-fa-number/DanaFaNum-Bold.woff);
+}
+
+* {
+  font-family: iran-yekan--regular, Arial;
+  font-weight: normal;
+}
+
+.aliop {}
