@@ -20,7 +20,7 @@ function TopNavigationBar() {
                 {/* left section */}
                 <div className="flex items-center gap-x-10">
                     <div className="flex items-center gap-x-7">
-                        <TopNavigationBarDropDownLink
+                        {/* <TopNavigationBarDropDownLink
                             text="لندینگ"
                             items={[
                                 { text: "توسعه دهنده", link: "/landings/developer" },
@@ -30,40 +30,42 @@ function TopNavigationBar() {
                                 { text: "دکتر", link: "/landings/doctor" },
                                 { text: "وکیل", link: "/landings/lawyer" }
                             ]}
-                        />
+                        /> */}
 
                         <TopNavigationBarDropDownLink
                             text="صفحات"
                             items={[
-                                { text: "خانه", link: "/" },
+                                // { text: "خانه", link: "/" },
                                 { text: "مقالات", link: "/articles" },
                                 { text: "تماس با ما", link: "/contact-us" },
-                                { text: "درباره ما", link: "/about-us" },
-                                { text: "پروژه های ما", link: "/projects" },
-                                { text: "خدمات ما", link: "/services" }
+                                // { text: "درباره ما", link: "/about-us" },
+                                // { text: "پروژه های ما", link: "/projects" },
+                                // { text: "خدمات ما", link: "/services" }
                             ]}
                         />
 
-                        <TopNavigationBarDropDownLink
+                        {/* <TopNavigationBarDropDownLink
                             text="خدمات ما"
                             items={[
                                 { text: "خدمات ما", link: "/services" },
                                 { text: "جزییات خدمات", link: "/services/123" }
                             ]}
-                        />
+                        /> */}
 
-                        <TopNavigationBarDropDownLink
+                        {/* <TopNavigationBarDropDownLink
                             text="پروژه ها"
                             items={[
                                 { text: "پروژه های من", link: "/projects" },
-                                { text: "جزییات پروژه", link: "/projects/123" }
+                                // { text: "جزییات پروژه", link: "/projects/123" }
                             ]}
-                        />
+                        /> */}
 
-                        <Link to="/" className="text-sm">ارتباط با ما</Link>
+                        <Link to="/projects" className="text-sm">پروژه های من</Link>
+                        
+                        <Link to="/" className="text-sm">خانه</Link>
                     </div>
 
-                    <Button color="primaryColor">
+                    <Button component={Link} to="/contact-us" color="primaryColor">
                         ارتباط با ما
                     </Button>
 

@@ -1,6 +1,6 @@
 
 import { Routes, Route } from "react-router-dom"
-import { ArticleDetail, Articles, Home, MyProjects } from "./pages"
+import { ArticleDetail, Articles, ContactUs, Home, MyProjects } from "./pages"
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Route path="/articles" element={<Articles />} />
       <Route path="/articles/:id" element={<ArticleDetail />} />
       <Route path="/projects" element={<MyProjects />} />
+      <Route path="/contact-us" element={<ContactUs />} />
 
     </Routes>
   )

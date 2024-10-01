@@ -13,6 +13,8 @@ import Footer from "./Footer";
 import Quote from "./Quote";
 import SimilarArticles from "./SimilarArticles";
 import ProjectCard from "./ProjectCard";
+import FollowMeOnSocialPlatforms from "./FollowMeOnSocialPlatforms";
+import ContactUsForm from "./ContactUsForm";
 
 export {
     TopNavigationBar,
@@ -29,5 +31,7 @@ export {
     Footer,
     Quote,
     SimilarArticles,
-    ProjectCard
+    ProjectCard,
+    FollowMeOnSocialPlatforms,
+    ContactUsForm
 }

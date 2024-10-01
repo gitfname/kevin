@@ -22,7 +22,8 @@ const primaryColor: MantineColorsTuple = [
 const theme = createTheme({
   colors: {
     primaryColor
-  }
+  },
+  fontFamily: "iran-yekan--regular"
 })
 
 createRoot(document.getElementById('root')!).render(
